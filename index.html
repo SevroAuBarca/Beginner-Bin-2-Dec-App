@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Binario a decimal</title>
+  </head>
+  <body>
+    <div class="container">
+      <video muted loop autoplay>
+        <source src="./assets/video.mp4" type="video/mp4" />
+      </video>
+      <header class="header__content">
+        <h1>Bin 2 Dec Conveter</h1>
+      </header>
+      <div class="form__content">
+        <form id="convertir">
+          <input
+            type="number"
+            class="input"
+            id="input"
+            placeholder="Da los numeros"
+          />
+          <label id="label">Da los numeros</label>
+          <input type="submit" value="convertir" class="btn" />
+        </form>
+
+        <div class="show__content">
+          <h1 class="converted" id="texto">X</h1>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>
